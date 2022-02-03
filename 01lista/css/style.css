@@ -1,0 +1,241 @@
+body{
+	background: #d3d3d3;
+	color: white;
+}
+
+.background{
+	background: #516077;
+	transition: 1s;
+}
+
+#back{
+	width: 5%;
+    background: radial-gradient(#d3d3d3, #bbbbbb);
+    border-radius: 20px;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+#btnB{
+	width: 55px;
+	height: 55px;
+	margin-left: 8%;
+	margin-top: 5%;
+	color: #f4f8ff;
+}
+
+.container{
+	border-radius: 15px;
+	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+	 inset -5px -5px 15px rgba(255,255,255,0.1),
+	 5px 5px 15px rgba(0,0,0,0.3),
+	 -5px -5px 15px rgba(255,255,255,0.1);
+	width: 75%;
+}
+
+#rowSuperior{
+	width: 98%;
+	margin: 1%;
+}
+
+#rowSuperior i{
+	display: inline-block;
+	width: 3%;
+	padding: 0px;
+	padding-top: 3px;
+}
+
+#superiorIzq{
+	width: 90%;
+}
+
+#nroCanción p{
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 0%;
+	margin-top: 11%;
+	text-align: center;
+}
+
+#nroCanción{
+	width: 10%;
+	display: flex;
+    justify-content: space-evenly;
+}
+
+
+#reproductor{
+	display: inline-block;
+	max-width: 22%;
+	padding-left: 10px;
+}
+
+.card{
+	border: none;
+	margin: 3%;
+}
+
+.playlist{
+	width: 50%;
+	border-radius: 50px;
+	display: flex;
+}
+
+h6{
+	font-size: 11px;
+	text-align: center;
+}
+
+.col-md-2{
+	padding: 0px;
+}
+
+#col1{
+    margin-left: 9%;
+    margin-right: -4%;
+}
+
+img{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 4%;
+	border-radius: 5px;
+	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+	 inset -5px -5px 15px rgba(255,255,255,0.1),
+	 5px 5px 15px rgba(0,0,0,0.3),
+	 -5px -5px 10px rgba(255,255,255,0.1);
+}
+
+#valorVolumen{
+	display: inline-block;
+	background: rgba(245,245,245,0.1);
+	padding: 5px 10px;
+}
+
+#volumen{
+	display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+
+input[type="range"] {
+	-webkit-appearance: none;
+	width: 35%;
+	height: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 10px;
+	width: 10px;
+	background: #d3d3d3;
+	cursor: pointer;
+	box-shadow: -415px 0 0 400px #d3d3d3;
+}
+
+#valorVolumen, #íconoVolumen{
+	margin-right: 4%;
+	cursor: pointer;
+}
+
+#títuloCanción{
+	font-size: 35px;
+	margin-bottom: 0%;
+	margin-top: 5%;
+}
+
+#artista{
+	font-size: 25px;
+}
+
+#navegación button{
+	color: white;
+	border: none;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;	
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+	 inset -5px -5px 15px rgba(255,255,255,0.1),
+	 5px 5px 15px rgba(0,0,0,0.3),
+	 -5px -5px 10px rgba(255,255,255,0.1);
+	 transition: 0.5s;
+}
+
+#navegación button:hover{
+	background: white;
+	color: #d3d3d3;
+}
+
+#navegación{
+	display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+#barraDuración{
+	margin-top: 8%;
+	width: 80%;
+	margin-bottom: 10%;
+}
+
+
+.bg1{
+	background: #000;
+	transition: 1s;
+
+}
+
+.bg2{
+	background: #500103;
+	transition: 1s;
+}
+
+.bg3{
+	background: #000;
+	transition: 1s;
+}
+
+.bg4{
+	background: #925f51;
+	transition: 1s;
+}
+
+.bg5{
+	background: #103d47;
+	transition: 1s;
+}
+
+.bg6{
+	background: #727371;
+	transition: 1s;
+}
+
+.bg7{
+	background: #190d29;
+	transition: 1s;
+}
+
+.bg8{
+	background: #8f1916;
+	transition: 1s;
+}
+
+.bg9{
+	background: #16346d;
+	transition: 1s;
+}
+
+.bg10{
+	background: #19191a;
+	transition: 1s;
+}
